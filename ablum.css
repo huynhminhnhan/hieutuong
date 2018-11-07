@@ -1,0 +1,41 @@
+.ablum {
+    margin: 50px;
+}
+
+.title-ablum {
+    position: relative;
+    padding: 20px;
+}
+
+.title-ablum h1 {
+    letter-spacing: 3px;
+}
+
+.title-ablum:after {
+    position: absolute;
+    content: '';
+    width: 36px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    background: gray;
+    transform: translateX(-50%);
+}
+
+.title-des {
+    padding: 30px;
+}
+
+.title-des p {
+    font-size: 1.5rem;
+    color: gray;
+    letter-spacing: 3px;
+}
+
+.pd-left {
+    padding-left: 0!important;
+}
+
+.img-boxabl {
+    box-shadow: 3px 4px 5px grey;
+}
