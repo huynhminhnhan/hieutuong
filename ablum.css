@@ -1,7 +1,3 @@
-.ablum {
-    margin: 50px;
-}
-
 .title-ablum {
     position: relative;
     padding: 20px;
@@ -64,4 +60,27 @@
     opacity: 1;
     transition: 0.5s;
     transform: scale(1.1);
+}
+
+.ablum-head {
+    padding: 100px;
+    background-image: url('assets/img/blackbg3.jpg');
+    margin-top: -48px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.ablum-head .main-title-section {
+    color: #fff;
+    margin-left: 310px;
+}
+
+.ablum-head .break-cump {
+    margin-left: 310px;
+}
+
+.ablum-head .break-cump a,
+.gach {
+    color: #fff;
 }

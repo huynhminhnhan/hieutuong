@@ -4,14 +4,17 @@
     margin-top: 50px;
     background-size: cover;
     background-position: center;
-
 }
+
 .about .main-title-section {
     color: #fff;
 }
-.about .break-cump a, .gach {
+
+.about .break-cump a,
+.gach {
     color: #fff!important;
 }
+
 .about .break-cump span {
     color: gray;
 }
