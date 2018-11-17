@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    color: #555;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* .container-cha {
+    width: 80%;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;s
+} */
+.menu-con {
+    margin-top: 2px;
+}
+
+.menu-con ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu-con li {
+    float: left;
+}
+
+.menu-con li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-con li a:hover {
+    background-color: #111;
+}
+
+.boxleft {
+    width: 860px;
+    float: left;
+}
+
+.boxright {
+    width: 270px;
+    float: right;
+    background: #E6E6E6;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    margin-top: 1rem;
+}
+
+.uudai {
+    margin-left: 5rem;
+}
+
+.textcuoitrongoi {
+    margin-bottom: 1rem;
+}
+
+.MsoNormalTable {}
+
+.about {
+    padding: 80px;
+    background-image: url(../img/ab4.jpeg);
+    /* margin-top: 50px; */
+    background-size: cover;
+    background-position: center;
+}
+
+/* ChatBox */
+
+
+.portlet {
+    margin-bottom: 15px;
+}
+
+.btn-white {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.portlet {
+    border: 1px solid;
+}
+
+.portlet .portlet-heading {
+    padding: 0 15px;
+}
+
+.portlet .portlet-heading h4 {
+    padding: 1px 0;
+    font-size: 16px;
+}
+
+.portlet .portlet-heading a {
+    color: #fff;
+}
+
+.portlet .portlet-heading a:hover,
+.portlet .portlet-heading a:active,
+.portlet .portlet-heading a:focus {
+    outline: none;
+}
+
+.portlet .portlet-widgets .dropdown-menu a {
+    color: #333;
+}
+
+.portlet .portlet-widgets ul.dropdown-menu {
+    min-width: 0;
+}
+
+.portlet .portlet-heading .portlet-title {
+    float: left;
+}
+
+.portlet .portlet-heading .portlet-title h4 {
+    margin: 10px 0;
+}
+
+.portlet .portlet-heading .portlet-widgets {
+    float: right;
+    margin: 8px 0;
+}
+
+.portlet .portlet-heading .portlet-widgets .tabbed-portlets {
+    display: inline;
+}
+
+.portlet .portlet-heading .portlet-widgets .divider {
+    margin: 0 5px;
+}
+
+.portlet .portlet-body {
+    padding: 15px;
+    background: #fff;
+}
+
+.portlet .portlet-footer {
+    padding: 10px 15px;
+    background: #e0e7e8;
+}
+
+.portlet .portlet-footer ul {
+    margin: 0;
+}
+
+.portlet-green,
+.portlet-green>.portlet-heading {
+    border-color: #16a085;
+}
+
+.portlet-green>.portlet-heading {
+    color: #fff;
+    background-color: #16a085;
+}
+
+.portlet-orange,
+.portlet-orange>.portlet-heading {
+    border-color: #f39c12;
+}
+
+.portlet-orange>.portlet-heading {
+    color: #fff;
+    background-color: #f39c12;
+}
+
+.portlet-blue,
+.portlet-blue>.portlet-heading {
+    border-color: #2980b9;
+}
+
+.portlet-blue>.portlet-heading {
+    color: #fff;
+    background-color: #2980b9;
+}
+
+.portlet-red,
+.portlet-red>.portlet-heading {
+    border-color: #e74c3c;
+}
+
+.portlet-red>.portlet-heading {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.portlet-purple,
+.portlet-purple>.portlet-heading {
+    border-color: #8e44ad;
+}
+
+.portlet-purple>.portlet-heading {
+    color: #fff;
+    background-color: #8e44ad;
+}
+
+.portlet-default,
+.portlet-dark-blue,
+.portlet-default>.portlet-heading,
+.portlet-dark-blue>.portlet-heading {
+    border-color: #34495e;
+}
+
+.portlet-default>.portlet-heading,
+.portlet-dark-blue>.portlet-heading {
+    color: #fff;
+    background-color: #34495e;
+}
+
+.portlet-basic,
+.portlet-basic>.portlet-heading {
+    border-color: #333;
+}
+
+.portlet-basic>.portlet-heading {
+    border-bottom: 1px solid #333;
+    color: #333;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    .portlet {
+        margin-bottom: 30px;
+    }
+}
+
+.text-green {
+    color: #16a085;
+}
+
+.text-orange {
+    color: #f39c12;
+}
+
+.text-red {
+    color: #e74c3c;
+}
+
+#col-3-menu {
+    margin-bottom: -30px;
+    display: block;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5); */
+    /*Đổ bóng cho menu*/
+    position: relative;
+    /*Cho menu cố định 1 vị trí với top và left*/
+    top: 0;
+    /*Nằm trên cùng*/
+    right: 0;
+    /*Nằm sát bên trái*/
+    /* z-index: 100000; */
+    /*Hiển thị lớp trên cùng*/
+}
+.fix-menu{
+    /* position: absolute; */
+    overflow: hidden;
+}
+.a-banner{
+    color: white;
+}
